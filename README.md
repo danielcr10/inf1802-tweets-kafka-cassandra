@@ -1,12 +1,10 @@
-#Projeto final Tweets-kafka-cassandra
+# Projeto final Tweets-kafka-cassandra
 
-##Instrucoes
+## Instrucoes
 
 Para preparacao do ambiente
 
-Deve rodar o docker com o cassandra:
-
-###Comando:
+### Comando:
 
 `docker run -d --name cassandra-db -m 1024M --net=host cassandra:3`
 
@@ -36,7 +34,7 @@ Para consumidor:
 
 Aplicacoes em execucao:
 
-![alt text][application]
+![Application](https://github.com/danielcr10/inf1802-tweets-kafka-cassandra/blob/master/images/application.png)
 
 Para visualizar o Cassandra:
 
@@ -49,7 +47,7 @@ cqlsh:tweets> select * from Tweets;
 
 Cassandra em execucao:
 
-![alt text][cassandra]
+![Cassandra](https://github.com/danielcr10/inf1802-tweets-kafka-cassandra/blob/master/images/cassandra.png)
 
-[application]: https://github.com/danielcr10/inf1802-tweets-kafka-cassandra/images/cassandra.png "Aplicacao rodando"
-[cassandra]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/application.png "Console cassandra"
+[application]: https://github.com/danielcr10/inf1802-tweets-kafka-cassandra/blob/master/images/application.png "Aplicacao rodando"
+[cassandra]: https://github.com/danielcr10/inf1802-tweets-kafka-cassandra/blob/master/images/cassandra.png "Console cassandra"
